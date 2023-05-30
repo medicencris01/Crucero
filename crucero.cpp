@@ -63,7 +63,7 @@ int main()
     cout << "Please enter your name: ";
     getline(cin, nombre);
 
-    cout << "Hello " << nombre << ", please enter your age: " << endl;
+    cout << "Hello " << nombre << ", please enter your age: " ;
     cin >> edad;
 
     if (edad > 18)
